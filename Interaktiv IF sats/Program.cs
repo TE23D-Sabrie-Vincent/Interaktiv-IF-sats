@@ -24,6 +24,7 @@ System.Console.WriteLine("Sparka kidnapparen        Spela död");
      if (Decision == "sparka kidnapparen")
 {
     System.Console.WriteLine("Du sparkade kidnapparen tills han svimmade och sprang iväg");
+    System.Console.WriteLine("BONUS lore: Du insåg att du hade mäkta sparkar och började att träna på taekwondo när ditt hem");
 }
 // {
 //     Desicion = Console.ReadLine();
@@ -35,11 +36,27 @@ System.Console.WriteLine("Sparka kidnapparen        Spela död");
 if (Decision == "försöka att ringa 112")
 {
     System.Console.WriteLine("Du letar efter din mobil och insåg att kidnapparen tog den (bruh)");
+    System.Console.WriteLine("Du letar efter något annat som kunde hjälpa dig och hittade 2 föremål: ");
+    System.Console.WriteLine("En penna och en gammal rutten ostbit");
+    System.Console.WriteLine("Vilken objekt ska du använda för att ta ned kidnapparen?");
 }
-// else 
-// {
-//     Console.WriteLine("Aja baja, det får du inte göra för att jag tycker de XD");
-// }
+if (Decision == "penna || pennan")
+{
+    System.Console.WriteLine("Du kastade pennan mot kidnapparen vilket distraherade honom och kraschade bilen in i en lyktstolpe ");
+    System.Console.WriteLine("Du vaknade efter det hemska upplevelsen och insåg att han dog... Men du haltar iväg med ditt brutna vänstra ben som om det vore inget");
+}
+
+if (Decision == "rutten osbit || ostbit")
+{
+    System.Console.WriteLine("Du kastar ostbiten och träffade kidnapparens hår");
+    System.Console.WriteLine("Kidnapparen skrek och stannade bilen för att se på inspektera den");
+    System.Console.WriteLine("Det slutade med att han har alltid letat efter den legendariska ostbiten från hans barndom");
+    System.Console.WriteLine("Han lät dig gå utan att skada dig + du fick tillbaka din mobil! ");
+}
+else  
+{
+    Console.WriteLine("Aja baja, det får du inte göra för att jag tycker de XD");
+}
 
 
 Console.ReadLine();
